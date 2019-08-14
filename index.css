@@ -1,13 +1,16 @@
-body{
+body {
     margin: 0;
 }
-#map{
+
+#map {
     width: 75%;
     height: 100%;
     position: absolute;
 }
-#HUDRight{
-    width:25%;
+
+#HUDRight {
+    width: 25%;
+    height: 100%;
     right: 0;
     position: absolute;
 }
