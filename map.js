@@ -1,6 +1,8 @@
 var monJson
 var map = L.map('map').fitWorld();
 
+var modePointeur = false
+
 L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
     maxZoom: 20,
     attribution: '&copy; Openstreetmap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -37,4 +39,20 @@ function useJSON(text) {
     console.log("Json récupéré:", monJson)
     document.getElementById("description").innerHTML = monJson.description;
     map.setView(monJson.center, monJson.zoom)
+}
+
+function mode() {
+    if (modePointeur == false) {
+        map.on("click", DisplayLatLng(e))
+        document.getElementById("ChangeMode").innerHTML = "Classique"
+        modePointeur == true;
+    } else {
+        map.off("click", DisplayLatLng)
+        document.getElementById("ChangeMode").innerHTML = "Pointeur"
+        modePointeur == false;
+    }
+}
+
+function DisplayLatLng(e) {
+    console.log(map.mouseEventToLatLng(e.originalEvent))
 }
