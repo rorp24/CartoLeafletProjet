@@ -1,12 +1,16 @@
 {
-    "description": "Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel de tout ce qui se passe a grenoble dans ce projet.",
+    "description": "Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.",
     "legend": "",
     "center": [45.1667, 5.7167],
     "zoom": 12,
     "locations": [{
-        "name": "Palais de la Prince",
+        "name": "La Bastille: Palais de la Prince",
         "center": [45.1996, 5.7249],
         "description": "Palais de la Prince Chadia Rabah"
-    }, {}]
+    }, {
+        "name": "Fondation Tremere",
+        "center": [45.1996, 5.7239],
+        "description": "La fondation des Tremeres de Grenoble\nRégent: Maxime Boiron"
+    }]
 
 }
