@@ -6,11 +6,15 @@
     "locations": [{
         "name": "La Bastille: Palais de la Prince",
         "center": [45.1996, 5.7249],
-        "description": "Palais de la Prince Chadia Rabah"
+        "description": "Palais de la Prince Chadia Rabah."
     }, {
         "name": "Fondation Tremere",
         "center": [45.1961, 5.7239],
-        "description": "La fondation des Tremeres de Grenoble\nRégent: Maxime Boiron"
+        "description": "La fondation des Tremeres de Grenoble.\nRégent: Maxime Boiron"
+    }, {
+        "name": "Fondation des Erudits",
+        "center": [45.2025, 5.7031],
+        "description": "Les Erudits ont repris l'idée des Tremeres pour le nom de leurs installations.\nDoyenne: Emilie Martel"
     }]
 
 }
