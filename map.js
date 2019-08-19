@@ -45,7 +45,8 @@ function useJSON(text) {
     map.setView(monJson.center, monJson.zoom)
     monJson.locations.forEach(element => {
         var marker = L.marker(element.center, { title: element.name })
-        marker.bindPopup().setContent(element.description);
+        var popup = L.popup().setContent(element.description);
+        marker.bindPopup(popup)
         marker.addTo(map)
     });
 }
