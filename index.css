@@ -1,9 +1,17 @@
 body {
     background-color: cornflowerblue;
+    color: aliceblue;
 }
 
 #window {
     background-color: aliceblue;
-    height: 100px;
-    width: 100px;
+    color: black;
+    height: 420px;
+    width: 594px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#window button {
+    margin: auto;
 }
