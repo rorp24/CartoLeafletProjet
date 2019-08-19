@@ -10,9 +10,10 @@ function EnterThePage() {
                 console.log("Json récupéré:", monJson)
                 document.getElementById("description").innerHTML = monJson.description;
             }
-            xmlhttp.open("GET", "./GrenobleByNight.json", true);
-            xmlhttp.send();
+
         }
+        xmlhttp.open("GET", "./GrenobleByNight.json", true);
+        xmlhttp.send();
     } else if (window.location.search == "?demo") {
         alert("demo")
         var xmlhttp = new XMLHttpRequest();
@@ -22,8 +23,9 @@ function EnterThePage() {
                 console.log("Json récupéré:", monJson)
                 document.getElementById("description").innerHTML = monJson.description;
             }
-            xmlhttp.open("GET", "./demo.json", true);
-            xmlhttp.send();
+
         }
+        xmlhttp.open("GET", "./demo.json", true);
+        xmlhttp.send();
     }
 }
