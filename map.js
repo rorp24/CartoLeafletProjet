@@ -50,16 +50,17 @@ function useJSON(text) {
         marker.bindPopup(popup)
         marker.addTo(map)
     });
-    //geoJson
+    //geoJson TODO
+    /*
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var GJSON = JSON.parse(this.responseText)
-            L.geoJSON(GJSON)
+            L.geoJSON(GJSON).addTo(map)
         }
 
     }
-    xmlhttp.open("GET", "http://entrepot.metropolegrenoble.fr/opendata/Decoupage/json/SECTEURS_EPSG4326.json", true);
+    xmlhttp.open("GET", "https://france-geojson.gregoiredavid.fr/repo/departements/38-isere/communes-38-isere.geojson", true);
     xmlhttp.send();
-
+    */
 }
