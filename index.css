@@ -1,0 +1,9 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#window {
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+}
