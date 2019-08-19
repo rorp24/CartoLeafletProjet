@@ -7,8 +7,7 @@ xmlhttp.onreadystatechange = function() {
         document.getElementById("description").innerHTML = monJson.description;
     }
 };
-xmlhttp.open("GET", "./demo.json", true);
-xmlhttp.send();
+
 
 function EnterThePage() {
     if (window.location.search == "?GBN") {
@@ -16,6 +15,7 @@ function EnterThePage() {
             //open("demo.json")
     } else if (window.location.search == "?demo") {
         alert("demo")
-
+        xmlhttp.open("GET", "./demo.json", true);
+        xmlhttp.send();
     }
 }
