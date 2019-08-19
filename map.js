@@ -43,10 +43,23 @@ function useJSON(text) {
     console.log("Json récupéré:", monJson)
     document.getElementById("description").innerHTML = monJson.description;
     map.setView(monJson.center, monJson.zoom)
+        //posage des marqueurs
     monJson.locations.forEach(element => {
         var marker = L.marker(element.center, )
         var popup = L.popup().setContent("<h3>" + element.name + "</h3><p>" + element.description + "</p>");
         marker.bindPopup(popup)
         marker.addTo(map)
     });
+    //geoJson
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var GJSON = JSON.parse(this.responseText)
+            L.geoJSON(GJSON)
+        }
+
+    }
+    xmlhttp.open("GET", "http://entrepot.metropolegrenoble.fr/opendata/Decoupage/json/SECTEURS_EPSG4326.json", true);
+    xmlhttp.send();
+
 }
