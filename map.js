@@ -3,6 +3,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         monJson = JSON.parse(this.responseText);
+        console.log("Json récupéré:", monJson)
         document.getElementById("description").innerHTML = monJson.description;
     }
 };
