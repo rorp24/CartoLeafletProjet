@@ -8,6 +8,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
     attribution: '&copy; Openstreetmap France | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+map.on("click", (e) => {
+    console.log(map.mouseEventToLatLng(e.originalEvent))
+})
+
 L.control.scale().addTo(map)
 
 function EnterThePage() {
@@ -39,20 +43,4 @@ function useJSON(text) {
     console.log("Json récupéré:", monJson)
     document.getElementById("description").innerHTML = monJson.description;
     map.setView(monJson.center, monJson.zoom)
-}
-
-function mode() {
-    if (modePointeur == false) {
-        map.on("click", DisplayLatLng(e))
-        document.getElementById("ChangeMode").innerHTML = "Classique"
-        modePointeur == true;
-    } else {
-        map.off("click", DisplayLatLng)
-        document.getElementById("ChangeMode").innerHTML = "Pointeur"
-        modePointeur == false;
-    }
-}
-
-function DisplayLatLng(e) {
-    console.log(map.mouseEventToLatLng(e.originalEvent))
 }
