@@ -230,7 +230,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38151", "nom": "\u00c9chirolles" }
+            "properties": { "color": "#FF4500", "nom": "\u00c9chirolles" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -250,7 +250,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38317", "nom": "Pont-de-Claix" }
+            "properties": { "color": "#FF4500", "nom": "Pont-de-Claix" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -276,7 +276,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38111", "nom": "Claix" }
+            "properties": { "color": "#FF4500", "nom": "Claix" }
         }, {
             "type": "Feature",
             "geometry": {
