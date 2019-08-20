@@ -1,5 +1,5 @@
 {
-    "description": "<p>Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.</p><p> Les géoJson des Territoires peuvent être trouvés aux adresses suivantes: <br/><a href='https://france-geojson.gregoiredavid.fr/'>Territoires (sauf Grenoble)</a><br/><a>Grenoble</a><p>",
+    "description": "<p>Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.</p><p> Les géoJson des Territoires peuvent être trouvés aux adresses suivantes: <br/><a href='https://france-geojson.gregoiredavid.fr/'>Territoires</a><p> ",
     "legend": "",
     "center": [45.1667, 5.7167],
     "zoom": 12,
@@ -12,9 +12,9 @@
         "center": [45.1961, 5.7239],
         "description": "La fondation des Tremeres de Grenoble.\nRégent: Maxime Boiron"
     }, {
-        "name": "Fondation des Erudits",
-        "center": [45.2025, 5.7031],
-        "description": "Les Erudits ont repris l'idée des Tremeres pour le nom de leurs installations.\nDoyenne: Emilie Martel"
+        "name": "Laboratoire des Erudits",
+        "center": [45.1848, 5.7846],
+        "description": "Le laboratoire des Erudits.\nDoyenne: Emilie Martel"
     }],
     "features": [{
             "type": "Feature",
