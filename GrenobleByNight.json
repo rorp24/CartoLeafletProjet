@@ -44,7 +44,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFFF", "nom": "Grenoble" }
+            "properties": { "color": "#FFFFF0", "nom": "Grenoble" }
         },
         {
             "type": "Feature",
