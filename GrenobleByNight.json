@@ -147,7 +147,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38179", "nom": "Gi\u00e8res" }
+            "properties": { "color": "#1E90FF", "nom": "Gi\u00e8res" }
         }, {
             "type": "Feature",
             "geometry": {
