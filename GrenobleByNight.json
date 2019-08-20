@@ -1,5 +1,5 @@
 {
-    "description": "Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet. Les géoJson de détourage des communes peuvent être trouvés aux adresses suivantes: <br/><a href='https://france-geojson.gregoiredavid.fr/'>https://france-geojson.gregoiredavid.fr/</a>",
+    "description": "<p>Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.</p><p> Les géoJson des Territoires peuvent être trouvés aux adresses suivantes: <br/><a href='https://france-geojson.gregoiredavid.fr/'>Territoires (sauf Grenoble)</a><br/><a>Grenoble</a><p>",
     "legend": "",
     "center": [45.1667, 5.7167],
     "zoom": 12,
@@ -382,7 +382,11 @@
                 ]
             },
             "properties": { "code": "38423", "nom": "Saint-Martin-le-Vinoux" }
-        }, { "type": "Feature", "geometry": { "type": "Polygon", "coordinates": [
+        }, {
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
                     [
                         [5.6810597595461, 45.213393772619],
                         [5.6780535664332, 45.213168595855],
@@ -398,7 +402,10 @@
                         [5.6902915914123, 45.218805360744],
                         [5.6810597595461, 45.213393772619]
                     ]
-                ] }, "properties": { "code": "38382", "nom": "Saint-\u00c9gr\u00e8ve" } }
+                ]
+            },
+            "properties": { "code": "38382", "nom": "Saint-\u00c9gr\u00e8ve" }
+        }
     ]
 
 }
