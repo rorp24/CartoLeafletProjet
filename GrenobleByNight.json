@@ -100,7 +100,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38516", "nom": "Tronche" }
+            "properties": { "color": "#FFFFF0", "nom": "Tronche" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -381,7 +381,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38423", "nom": "Saint-Martin-le-Vinoux" }
+            "properties": { "color": "#FFFFF0", "nom": "Saint-Martin-le-Vinoux" }
         }, {
             "type": "Feature",
             "geometry": {
