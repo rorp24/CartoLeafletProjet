@@ -51,8 +51,6 @@ function useJSON(text) {
         marker.addTo(map)
     });
     //geoJson TODO
-
-
     L.geoJSON(monJson.features).addTo(map)
 
 
