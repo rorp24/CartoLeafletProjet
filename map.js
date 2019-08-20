@@ -53,7 +53,10 @@ function useJSON(text) {
     //geoJson TODO
     L.geoJSON(monJson.features, {
         onEachFeature: (feature, layer) => {
-            layer.setStyle({ color: feature.properties.color })
+            if (feature.properties.color) {
+                layer.setStyle({ color: feature.properties.color })
+            }
+
             layer.on("click", () => {
 
             })
