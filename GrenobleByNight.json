@@ -44,7 +44,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38185", "nom": "Grenoble" }
+            "properties": { "color": "#FFFFFF", "nom": "Grenoble" }
         },
         {
             "type": "Feature",

@@ -51,7 +51,14 @@ function useJSON(text) {
         marker.addTo(map)
     });
     //geoJson TODO
-    L.geoJSON(monJson.features).addTo(map)
+    L.geoJSON(monJson.features, {
+        onEachFeature: (feature, layer) => {
+            layer.setStyle({ color: feature.properties.color })
+            layer.on("click", () => {
+
+            })
+        }
+    }).addTo(map)
 
 
 
