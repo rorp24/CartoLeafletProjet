@@ -55,6 +55,8 @@ function useJSON(text) {
         onEachFeature: (feature, layer) => {
             if (feature.properties.color) {
                 layer.setStyle({ color: feature.properties.color })
+            } else {
+                layer.setStyle({ color: "#000000" })
             }
 
             layer.on("click", () => {
