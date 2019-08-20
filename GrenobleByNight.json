@@ -10,11 +10,11 @@
     }, {
         "name": "Fondation Tremere",
         "center": [45.1961, 5.7239],
-        "description": "La fondation des Tremeres de Grenoble.\nRégent: Maxime Boiron"
+        "description": "La fondation des Tremeres de Grenoble.<br/>Régent: Maxime Boiron"
     }, {
         "name": "Laboratoire des Erudits",
         "center": [45.1848, 5.7846],
-        "description": "Le laboratoire des Erudits.\nDoyenne: Emilie Martel"
+        "description": "Le laboratoire des Erudits.<br/>Doyenne: Emilie Martel"
     }],
     "features": [{
             "type": "Feature",
