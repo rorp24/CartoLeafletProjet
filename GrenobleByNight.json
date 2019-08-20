@@ -1,5 +1,5 @@
 {
-    "description": "Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.",
+    "description": "Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet. Les géoJson de détourage des communes peuvent être trouvés aux adresses suivantes:\n <a>https://france-geojson.gregoiredavid.fr/ </a>",
     "legend": "",
     "center": [45.1667, 5.7167],
     "zoom": 12,
