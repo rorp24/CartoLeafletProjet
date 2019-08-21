@@ -42,6 +42,7 @@ function useJSON(text) {
     monJson = JSON.parse(text);
     console.log("Json récupéré:", monJson)
     document.getElementById("description").innerHTML = monJson.description;
+    document.getElementById("legend").innerHTML = monJson.legend;
     map.setView(monJson.center, monJson.zoom)
         //posage des marqueurs
     monJson.locations.forEach(element => {
