@@ -1,6 +1,6 @@
 {
     "description": "<p>Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.</p><p> Les géoJson des Territoires peuvent être trouvés aux adresses suivantes: <br/><a href='https://france-geojson.gregoiredavid.fr/'>Territoires</a><p> ",
-    "legend": "<h3>Faction<h3><div style=\"color : '#FFFFF0'\">Camarilla</div><div style=\"color : '#1E90FF'\">Rousseauistes</div><div style=\"color : '#FF4500'\">Novateurs</div>",
+    "legend": "<h3>Faction<h3><div style=\"color : #FFFFF0\">Camarilla</div><div style=\"color : #1E90FF\">Rousseauistes</div><div style=\"color : #FF4500\">Novateurs</div>",
     "center": [45.1667, 5.7167],
     "zoom": 12,
     "locations": [{
