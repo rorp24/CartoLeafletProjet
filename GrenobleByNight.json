@@ -1,6 +1,6 @@
 {
     "description": "<p>Grenoble By Night est mon projet de setting pour le jeu de rôle Vampire: The Masquerade.\nJe me sert de ce site comme support visuel dans ce projet.</p><p> Les géoJson des Territoires peuvent être trouvés aux adresses suivantes: <br/><a href='https://france-geojson.gregoiredavid.fr/'>Territoires</a><p> ",
-    "legend": "<h3>Faction</h3><div style=\"color : #FFFFF0\">- Camarilla</div><div style=\"color : #1E90FF\">- Rousseauistes</div><div style=\"color : #FF4500\">- Novateurs</div>",
+    "legend": "<h3>Faction</h3><div style=\"color : #FFFFF0\">- Camarilla</div><div style=\"color : #1E90FF\">- Rousseauistes</div><div style=\"color : #FF4500\">- Novateurs</div><div style=\"color : #A9A9A9\">- Territoire neutre</div>",
     "center": [45.1667, 5.7167],
     "zoom": 12,
     "locations": [{
@@ -165,7 +165,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#0F0F0F", "nom": "Eybens" }
+            "properties": { "color": "#A9A9A9", "nom": "Eybens" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -188,7 +188,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38485", "nom": "Seyssinet-Pariset" }
+            "properties": { "color": "#A9A9A9", "nom": "Seyssinet-Pariset" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -314,7 +314,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38169", "nom": "Fontaine" }
+            "properties": { "color": "#A9A9A9", "nom": "Fontaine" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -360,7 +360,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38474", "nom": "Sassenage" }
+            "properties": { "color": "#1E90FF", "nom": "Sassenage" }
         }, {
             "type": "Feature",
             "geometry": {
