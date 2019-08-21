@@ -44,7 +44,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Grenoble" }
+            "properties": { "color": "#FFFFF0", "name": "Grenoble", "description": "" }
         },
         {
             "type": "Feature",
@@ -76,7 +76,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "nom": "Meylan" }
+            "properties": { "color": "#1E90FF", "name": "Meylan", "description": "" }
         },
         {
             "type": "Feature",
@@ -100,7 +100,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Tronche" }
+            "properties": { "color": "#FFFFF0", "name": "Tronche", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -119,7 +119,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "nom": "Saint-Martin-d'H\u00e8res" }
+            "properties": { "color": "#1E90FF", "name": "Saint-Martin-d'H\u00e8res", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -147,7 +147,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "nom": "Gi\u00e8res" }
+            "properties": { "color": "#1E90FF", "name": "Gi\u00e8res", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -165,7 +165,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#A9A9A9", "nom": "Eybens" }
+            "properties": { "color": "#A9A9A9", "name": "Eybens", "description": "Eybens n'as été réclamé par aucun vampire. En effet, la zone est un endroit plus proche du champs de bataille nocturne que du territoire stable. On raconte également que la seconde inquisition y a installé plusieurs bases d'opérations." }
         }, {
             "type": "Feature",
             "geometry": {
@@ -188,7 +188,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#A9A9A9", "nom": "Seyssinet-Pariset" }
+            "properties": { "color": "#A9A9A9", "name": "Seyssinet-Pariset", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -207,7 +207,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FF4500", "nom": "Seyssins" }
+            "properties": { "color": "#FF4500", "name": "Seyssins", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -230,7 +230,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FF4500", "nom": "\u00c9chirolles" }
+            "properties": { "color": "#FF4500", "name": "\u00c9chirolles", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -250,7 +250,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FF4500", "nom": "Pont-de-Claix" }
+            "properties": { "color": "#FF4500", "name": "Pont-de-Claix", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -276,7 +276,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FF4500", "nom": "Claix" }
+            "properties": { "color": "#FF4500", "name": "Claix", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -295,7 +295,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Fontanil-Cornillon" }
+            "properties": { "color": "#FFFFF0", "name": "Fontanil-Cornillon", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -314,7 +314,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Fontaine" }
+            "properties": { "color": "#FFFFF0", "name": "Fontaine", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -337,7 +337,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "nom": "Corenc" }
+            "properties": { "color": "#1E90FF", "name": "Corenc", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -360,7 +360,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "nom": "Sassenage" }
+            "properties": { "color": "#1E90FF", "name": "Sassenage", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -381,7 +381,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Saint-Martin-le-Vinoux" }
+            "properties": { "color": "#FFFFF0", "name": "Saint-Martin-le-Vinoux", "description": "" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -404,7 +404,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Saint-\u00c9gr\u00e8ve" }
+            "properties": { "color": "#FFFFF0", "name": "Saint-\u00c9gr\u00e8ve", "description": "" }
         }
     ]
 

@@ -32,6 +32,6 @@
                 ]
             ]
         },
-        "properties": { "color": "#FFFFF0", "nom": "Grenoble" }
+        "properties": { "color": "#FFFFF0", "name": "Grenoble", "description": "" }
     }]
 }

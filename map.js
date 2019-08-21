@@ -60,9 +60,8 @@ function useJSON(text) {
                 layer.setStyle({ color: "#000000" })
             }
 
-            layer.on("click", () => {
-
-            })
+            var popup = L.popup().setContent("<h3>" + feature.properties.name + "</h3><p>" + feature.properties.description + "</p>");
+            layer.bindPopup(popup)
         }
     }).addTo(map)
 
