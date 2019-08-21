@@ -314,7 +314,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#A9A9A9", "nom": "Fontaine" }
+            "properties": { "color": "#FFFFF0", "nom": "Fontaine" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -337,7 +337,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "nom": "Corenc" }
+            "properties": { "color": "#1E90FF", "nom": "Corenc" }
         }, {
             "type": "Feature",
             "geometry": {
