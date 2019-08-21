@@ -76,7 +76,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38229", "nom": "Meylan" }
+            "properties": { "color": "#1E90FF", "nom": "Meylan" }
         },
         {
             "type": "Feature",
@@ -119,7 +119,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38421", "nom": "Saint-Martin-d'H\u00e8res" }
+            "properties": { "color": "#1E90FF", "nom": "Saint-Martin-d'H\u00e8res" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -165,7 +165,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38158", "nom": "Eybens" }
+            "properties": { "color": "#0F0F0F", "nom": "Eybens" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -207,7 +207,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38486", "nom": "Seyssins" }
+            "properties": { "color": "#FF4500", "nom": "Seyssins" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -295,7 +295,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38170", "nom": "Fontanil-Cornillon" }
+            "properties": { "color": "#FFFFF0", "nom": "Fontanil-Cornillon" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -337,7 +337,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38126", "nom": "Corenc" }
+            "properties": { "color": "#FFFFF0", "nom": "Corenc" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -404,7 +404,7 @@
                     ]
                 ]
             },
-            "properties": { "code": "38382", "nom": "Saint-\u00c9gr\u00e8ve" }
+            "properties": { "color": "#FFFFF0", "nom": "Saint-\u00c9gr\u00e8ve" }
         }
     ]
 
