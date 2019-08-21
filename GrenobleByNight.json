@@ -16,9 +16,13 @@
         "center": [45.1848, 5.7846],
         "description": "Le laboratoire des Erudits.<br/>Doyenne: Emilie Martel"
     }, {
+        "name": "Le Phénix",
+        "center": [45.1952, 5.6981],
+        "description": "Havre principal du Ministère.<br/>Dirigeant: Isonyo"
+    }, {
         "name": "Le Black Lilith",
         "center": [45.1916, 5.7276],
-        "description": "Le Black Lilith est l'un des havres du Ministère. Isonyo, qui dirige l'endroit, profite du fait d'être sous les yeux de la Camarilla pour récupérer des informations.<br/>Dirigeant: Isonyo"
+        "description": "Havre du Ministère se trouvant sous le nez de la Camarilla. "
     }],
     "features": [{
             "type": "Feature",
