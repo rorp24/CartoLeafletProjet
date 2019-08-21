@@ -165,7 +165,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#A9A9A9", "name": "Eybens", "description": "Eybens n'as été réclamé par aucun vampire. En effet, la zone est un endroit plus proche du champs de bataille nocturne que du territoire stable. On raconte également que la seconde inquisition y a installé plusieurs bases d'opérations." }
+            "properties": { "color": "#A9A9A9", "name": "Eybens", "description": "Eybens n'as été réclamé par aucun vampire. En effet, la zone est un endroit plus proche du champs de bataille nocturne que du territoire stable. On raconte également que la Seconde Inquisition y a installé plusieurs bases d'opérations." }
         }, {
             "type": "Feature",
             "geometry": {
