@@ -84,7 +84,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "name": "Meylan", "description": "" }
+            "properties": { "color": "#1E90FF", "name": "Meylan", "description": "Meylan est un territoire tenu par le Ministère. Depuis qu'ils sont en place, les boites de nuit s'y sont multipliés (passant d'une a dix).<br/>Autorité officielle: Gérard Desrives.<br/>Autorité réelle: Isonyo." }
         },
         {
             "type": "Feature",
@@ -155,7 +155,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "name": "Gi\u00e8res", "description": "" }
+            "properties": { "color": "#1E90FF", "name": "Gi\u00e8res", "description": "Gière est un territoire très majoritairement peuplé de Caitiff et de sang clair. La Camarilla les y envoi pour ne pas avoir a les gérer (sans se douter que ce territoire ne lui appartient pas vraiment) et les Rousseauistes savent qu'Emilie Martel s'occupera d'eux.<br/>Autorité officielle: Isaac Delarue.<br/>Autorité réelle: Emilie Martel" }
         }, {
             "type": "Feature",
             "geometry": {
