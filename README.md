@@ -1,3 +1,3 @@
 # CartoLeafletProjet
 
-lien: https://rorp24.github.io/CartoLeafletProjetJSPure/
+lien: https://cartoleafletprojetjspure.netlify.com

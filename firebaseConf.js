@@ -1,6 +1,6 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: FIREBASE_KEY,
+    apiKey: $FIREBASE_KEY,
     authDomain: "projetleaflet.firebaseapp.com",
     databaseURL: "https://projetleaflet.firebaseio.com",
     projectId: "projetleaflet",
