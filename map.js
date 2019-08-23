@@ -1,4 +1,5 @@
 var monJson
+var database = firebase.database()
 var map = L.map('map').fitWorld();
 
 var modePointeur = false
@@ -15,8 +16,9 @@ map.on("click", (e) => {
 L.control.scale().addTo(map)
 
 function EnterThePage() {
-    if (window.location.search == "?GBN") {
-        var xmlhttp = new XMLHttpRequest();
+    window.location.search
+        //"?GBN"
+        /*var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 useJSON(this.responseText)
@@ -24,18 +26,9 @@ function EnterThePage() {
 
         }
         xmlhttp.open("GET", "./GrenobleByNight.json", true);
-        xmlhttp.send();
-    } else if (window.location.search == "?demo") {
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                useJSON(this.responseText)
-            }
+        xmlhttp.send();*/
+    useJSON(database.ref("/GBN"))
 
-        }
-        xmlhttp.open("GET", "./demo.json", true);
-        xmlhttp.send();
-    }
 }
 
 function useJSON(text) {
