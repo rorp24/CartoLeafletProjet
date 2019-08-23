@@ -1,6 +1,9 @@
 var monJson
-var database = firebase.database()
 var map = L.map('map').fitWorld();
+var brutArgs = window.location.search.slice(1)
+var usableArgs = brutArgs.split("&")
+console.log(usableArgs)
+var donnees = usableArgs[0]
 
 var modePointeur = false
 
@@ -15,24 +18,28 @@ map.on("click", (e) => {
 
 L.control.scale().addTo(map)
 
-function EnterThePage() {
-    window.location.search
-        //"?GBN"
-        /*var xmlhttp = new XMLHttpRequest();
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                useJSON(this.responseText)
-            }
 
+
+console.log()
+    //"?GBN"
+    /*var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            useJSON(this.responseText)
         }
-        xmlhttp.open("GET", "./GrenobleByNight.json", true);
-        xmlhttp.send();*/
-    useJSON(database.ref("/GBN"))
 
-}
+    }
+    xmlhttp.open("GET", "./GrenobleByNight.json", true);
+    xmlhttp.send();*/
+database.ref().once("value").then((data) => {
+    console.log(data.val())
+    useJSON(data.val()[donnees])
+})
 
-function useJSON(text) {
-    monJson = JSON.parse(text);
+
+
+function useJSON(data) {
+    monJson = data;
     console.log("Json récupéré:", monJson)
     document.getElementById("description").innerHTML = monJson.description;
     document.getElementById("legend").innerHTML = monJson.legend;
