@@ -27,6 +27,14 @@
         "name": "Bibliothèque universitaire: Havre de Maya Bianconi",
         "center": [45.1916, 5.7707],
         "description": "Havre de la Bailli Maya Bianconi. "
+    }, {
+        "name": "Elyseum d'Armand Throwman",
+        "center": [45.1914, 5.7100],
+        "description": "Elyseum sous l'autorité d'Armand Throwman. C'est également le siège de la Flander's Industrie."
+    }, {
+        "name": "Elyseum d'Elise Malavita",
+        "center": [45.2036, 5.7440],
+        "description": "Elyseum sous l'autorité d'Elise Malavita. C'est d'ici qu'elle s'occupe du territoire de la Tronche"
     }],
     "features": [{
             "type": "Feature",
@@ -112,7 +120,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#FFFFF0", "name": "Tronche", "description": "" }
+            "properties": { "color": "#FFFFF0", "name": "Tronche", "description": "La Tronche est sous l'autorité d'Elise Malavita, la primogène Malkavienne. Depuis son arrivée, le quartier s'est bien embelli, mais le nombres de cas de problème psychologique a fortement augmenté, et certains vampires craignent que cela n'attire l'attention de la Seconde Inquisition.<br/>Représentante de la Prince: Elise Malavita" }
         }, {
             "type": "Feature",
             "geometry": {
@@ -131,7 +139,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "name": "Saint-Martin-d'H\u00e8res", "description": "" }
+            "properties": { "color": "#1E90FF", "name": "Saint-Martin-d'H\u00e8res", "description": "Saint-martin d'H\u00e8res est probablement l'endroit le plus sûr pour un vampire désirant vivre en paix. L'endroit est en effet le territoire de Maya Bianconi, l'une des gardienne de la loi les plus redoutables.<br/>Autorité: Maya Bianconi." }
         }, {
             "type": "Feature",
             "geometry": {
@@ -159,7 +167,7 @@
                     ]
                 ]
             },
-            "properties": { "color": "#1E90FF", "name": "Gi\u00e8res", "description": "Gière est un territoire très majoritairement peuplé de Caitiff et de sang clair. La Camarilla les y envoi pour ne pas avoir a les gérer (sans se douter que ce territoire ne lui appartient pas vraiment) et les Rousseauistes savent qu'Emilie Martel s'occupera d'eux.<br/>Autorité officielle: Isaac Delarue.<br/>Autorité réelle: Emilie Martel" }
+            "properties": { "color": "#1E90FF", "name": "Gi\u00e8res", "description": "Gi\u00e8re est un territoire très majoritairement peuplé de Caitiff et de sang clair. La Camarilla les y envoi pour ne pas avoir a les gérer (sans se douter que ce territoire ne lui appartient pas vraiment) et les Rousseauistes savent qu'Emilie Martel s'occupera d'eux.<br/>Autorité officielle: Isaac Delarue.<br/>Autorité réelle: Emilie Martel" }
         }, {
             "type": "Feature",
             "geometry": {
