@@ -23,6 +23,10 @@
         "name": "Le Black Lilith",
         "center": [45.1916, 5.7276],
         "description": "Havre du Ministère se trouvant sous le nez de la Camarilla. "
+    }, {
+        "name": "Bibliothèque universitaire: Havre de Maya Bianconi",
+        "center": [45.1916, 5.7707],
+        "description": "Havre de la Bailli Maya Bianconi. "
     }],
     "features": [{
             "type": "Feature",
