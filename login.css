@@ -1,0 +1,14 @@
+#login {
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    height: 60px;
+}
+
+#login div {
+    padding: 8px;
+}
+
+#login input {
+    height: 30px;
+}
