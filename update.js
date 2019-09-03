@@ -6,7 +6,3 @@ if (user) {
     //renvoi l'utilisateur a index s'il n'est pas loggé
     window.location = "index.html"
 }
-
-function createBase() {
-    console.log()
-}
