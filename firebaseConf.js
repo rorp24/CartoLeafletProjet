@@ -1,5 +1,5 @@
 // Your web app's Firebase configuration
-console.log('${FIREBASE_KEY}')
+console.log($.getenv('FIREBASE_KEY'))
 var firebaseConfig = {
     apiKey: '${FIREBASE_KEY}', //FIREBASE_KEY is stored in netlify env var
     authDomain: "projetleaflet.firebaseapp.com",
